@@ -20,5 +20,14 @@ body {
 .top {
   width: 100%;
   height: 19%;
-  
+  display: flex;
+  justify-content: center; /* 이거 완전 많이 쓰는 거래~ 밑에 것도 */
+  align-items: center;
+}
+
+.header {
+  width: 70%;
+  height: 60%;
+  background-color: #C6E2F4;
+  border-radius: 23px;
 }
