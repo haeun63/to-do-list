@@ -9,37 +9,39 @@
 </head>
 
 <body>
-  <div class="top">
-    <header class="header">
-      <h1>To-Do list</h1>
-    </header>
+  <div class="root">
+    <div class="top">
+      <header class="header">
+        <h1>To-Do list</h1>
+      </header>
+    </div>
+
+    <main class="main">
+      <form class="input-box">
+        <input type="text">
+
+        <button class="add">
+          <span>add</span>
+        </button>
+      </form>
+
+      <section class="add-section">
+        <article class="to-do">
+          <div class="choice">
+            <input type="checkbox">
+          </div>
+
+          <div class="work">
+            <span>입력 받은 거 작성된 곳</span>
+            <time>2026.02.06</time>
+            <button class="del">
+              x
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
   </div>
-
-  <main class="main">
-    <form class="input-box">
-      <input type="text">
-
-      <button class="add">
-        <span>add</span>
-      </button>
-    </form>
-
-    <section class="add-section">
-      <article class="to-do">
-        <div class="choice">
-          <input type="checkbox">
-        </div>
-
-        <div class="work">
-          <span>입력 받은 거 작성된 곳</span>
-          <time>2026.02.06</time>
-          <button class="del">
-            x
-          </button>
-        </div>
-      </article>
-    </section>
-  </main>
 </body>
 
 </html>
