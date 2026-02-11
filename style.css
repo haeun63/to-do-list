@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.root {
+  width: 65%;
+  height: 100vh; /* vh: 브라우저 전체 화면에 높이 지정 */
+  margin: 0 auto;
+  border: 1px solid black;
+}
