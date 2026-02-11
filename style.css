@@ -30,4 +30,16 @@ body {
   height: 60%;
   background-color: #C6E2F4;
   border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > h1 { /* header 안에 있는 h1만 선택 */
+  font-size: clamp(20px, 5vw, 46px); /* clamp(최소크기, 유동크기, 최대크기) */
+  font-weight: 900;
+}
+
+.serif {
+  font-family: 'Noto Serif KR', serif;
 }
