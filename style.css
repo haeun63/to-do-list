@@ -31,8 +31,8 @@ body {
   background-color: #C6E2F4;
   border-radius: 23px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* 가로축으로 할 때 */
+  align-items: center; /* 세로축으로 할 때 */
 }
 
 .header > h1 { /* header 안에 있는 h1만 선택 */
@@ -42,4 +42,50 @@ body {
 
 .serif {
   font-family: 'Noto Serif KR', serif;
+}
+
+.main {
+  border: 2px solid black;
+  width: 100%;
+  height: 81%;
+  display: flex;
+  flex-direction: column; /* 가로로 정렬된 걸 세로로 정렬 */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-box {
+  border: 2px solid gray;
+  width: 85%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2%;
+  padding-left: 1%;
+  border-radius: 15px;
+}
+
+.add-section {
+  border: 2px solid black;
+  width: 85%;
+  height: 87%;
+}
+
+.input-box > input {
+  width: 88%;
+  height: 85%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+
+.add {
+  width: 10%;
+  height: 85%;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: #C7D1EA;
+  font-weight: 900;
+  border: none;
 }
