@@ -67,9 +67,15 @@ body {
 }
 
 .add-section {
-  border: 2px solid black;
   width: 85%;
   height: 87%;
+  border-radius: 10px;
+  background-color: #E7EFF4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1%;
+  gap: 2px;
 }
 
 .input-box > input {
@@ -88,4 +94,10 @@ body {
   background-color: #C7D1EA;
   font-weight: 900;
   border: none;
+}
+
+.to-do {
+  border: 2px solid black;
+  width: 88%;
+  height: 12%;
 }
